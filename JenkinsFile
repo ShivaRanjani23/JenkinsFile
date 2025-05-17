@@ -1,0 +1,10 @@
+pipeline {
+    agent any
+    stages {
+        stage('Jenkinsfile Stage') {
+            steps {
+                echo 'Running from Jenkinsfile in Git!'
+            }
+        }
+    }
+}
